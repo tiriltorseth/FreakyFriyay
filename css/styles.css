@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dbf6e9;
+}
+
+h1 {
+  color: #76a69c;
+  text-align: center;
+  font-size: 350%;
+  font-family: "OPTIAlternateOne"
+}
+
+h2 {
+  color: #76a69c;
+  text-align: center;
+  font-family: "OPTIAlternateOne"
+}
+
+hr {
+  border: none;
+  border-top: 3px double;
+  color: #76a69c;
+  overflow: visible;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+}
+
+h3 {
+  color: #76a69c;
+}
+
+.nav-area {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.nav-area li {
+  display: inline-block;
+}
+
+.nav-area li a {
+  color: #76a69c;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-family: "OPTIAlternateOne"
+}
+
+.nav-area li a:hover {
+  background: white;
+  color: black;
+}
+
+.welcome-text {
+  text-align: center;
+  font-family: "OPTIAlternateOne";
+  font-size: 180%
+}
+
+footer {
+  background-color: white;
+  height: 20vh;
+  width: 100vw;
+  text-align: center;
+  color: black;
+  border-top: #76a69c 2px solid;
+  border-bottom: #76a69c 2px solid;
+}
+
+.foot {
+  color: #76a69c;
+  font-size: 150%;
+  font-family: "OPTIAlternateOne"
+}
+
+.contact {
+  border: 4px white;
+  border-style: solid;
+  background-color: #76a69c;
+  text-align: center;
+  margin: auto;
+  max-width: 35%;
+  min-width: 5%;
+}
+
+.contactbox {
+  text-align: center;
+}
+
+.boxed {
+  border: 2px #76a69c;
+  border-style: solid;
+  background-color: white;
+  text-align: left;
+  line-height: 1.4;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  max-width: 70%;
+  overflow: hidden;
+}
+
+.over {
+  text-align: center;
+}
+
+.overskift {
+  text-align: center;
+}
+
+.imgbb {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.intro {
+  color: black;
+  padding-left: 70px;
+  padding-right: 70px;
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.abouth3 {
+  text-align: center;
+}
+
+.boxed2 {
+  border: 2px #76a69c;
+  border-style: solid;
+  background-color: white;
+  text-align: left;
+  line-height: 1.4;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  max-width: 50%
+}
+
+.Q {
+  color: #76a69c;
+}
+
+.A {
+  color: #76a69c;
+}
+
+.faq {
+  font-family: "OPTIAlternateOne";
+  font-size: 27px;
+  text-align: center;
+}
+
+.textarea {
+  box-sizing: border-box;
+  max-width: 95%;
+}
+
+/*.bbp {
+  display: flex;
+}*/
+.boks img {
+  margin-right: 10px;
+  display: block;
+  width: 50%;
+  padding: 5%;
+}
+
+.boks h3 {
+  padding: 5%;
+  padding-bottom: 1%;
+  padding-top: 8%;
+}
+
+.boks p {
+  padding: 5%;
+  padding-top: 1%;
+  line-height: 1.5;
+}
+
+.boks {
+  border: 2px;
+  border-color: #76a69c;
+  background-color: white;
+  border-style: solid;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  max-width: 60%
+}
+
+@media only screen and (max-width: 1100px) {
+  .boks img {
+    display: none;
+  }
+}
