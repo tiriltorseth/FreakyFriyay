@@ -145,8 +145,7 @@ footer a, footer p{
   background-color: white;
   text-align: left;
   line-height: 1.4;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
   margin: auto;
   max-width: 50%
 }
