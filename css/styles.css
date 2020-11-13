@@ -1,9 +1,15 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   background-color: #dbf6e9;
+
+}
+header{
+  height: auto;
 }
 
 h1 {
@@ -63,28 +69,29 @@ h3 {
 .welcome-text {
   text-align: center;
   font-family: "OPTIAlternateOne";
-  font-size: 180%
+  font-size: 180%;
 }
 
 footer {
   background-color: white;
-  height: 20vh;
-  width: 100vw;
   text-align: center;
   color: black;
   border-top: #76a69c 2px solid;
   border-bottom: #76a69c 2px solid;
+  height: auto;
 }
 
 .foot {
   color: #76a69c;
-  font-size: 150%;
-  font-family: "OPTIAlternateOne"
+  font-size: 20px;
+  padding: 15px;
+}
+footer a, footer p{
+  padding: 15px;
 }
 
 .contact {
-  border: 4px white;
-  border-style: solid;
+  border: 4px white solid;
   background-color: #76a69c;
   text-align: center;
   margin: auto;
@@ -97,8 +104,7 @@ footer {
 }
 
 .boxed {
-  border: 2px #76a69c;
-  border-style: solid;
+  border: 2px #76a69c solid;
   background-color: white;
   text-align: left;
   line-height: 1.4;
@@ -135,8 +141,7 @@ footer {
 }
 
 .boxed2 {
-  border: 2px #76a69c;
-  border-style: solid;
+  border: 2px #76a69c solid;
   background-color: white;
   text-align: left;
   line-height: 1.4;
@@ -159,7 +164,6 @@ footer {
   font-size: 27px;
   text-align: center;
 }
-
 .textarea {
   box-sizing: border-box;
   max-width: 95%;
@@ -178,21 +182,15 @@ footer {
 
 .boks h3 {
   padding: 5%;
-  padding-bottom: 1%;
-  padding-top: 8%;
 }
-
 .boks p {
   padding: 5%;
-  padding-top: 1%;
   line-height: 1.5;
 }
 
 .boks {
-  border: 2px;
-  border-color: #76a69c;
+  border: 2px #76a69c solid;
   background-color: white;
-  border-style: solid;
   overflow: auto;
   max-width: 960px;
   display: flex;
@@ -200,11 +198,15 @@ footer {
   padding-left: 20px;
   padding-right: 20px;
   margin: auto;
-  max-width: 60%
 }
-
 @media only screen and (max-width: 1100px) {
   .boks img {
     display: none;
   }
 }
+@media (max-width: 1025px) {
+  footer{
+    margin-top: 325px;
+  }
+}
+
